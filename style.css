@@ -1,0 +1,95 @@
+body{
+  background-color: #212121;
+  color: #fff;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container{
+  margin: 35px
+}
+
+h1{
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+#span{
+  color: crimson;
+}
+
+form{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+padding: 10px;
+
+
+
+>.inputContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 10px;
+  color: black;
+  font-weight: 500;
+
+
+  >.input{
+    padding: 8px;
+  }
+}
+
+>.buttonContainer{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding: 10px;
+
+  >.calcBmi{
+padding: 8px;
+width: 180px;
+cursor: pointer;
+background-color: green;
+color: #fff;
+font-weight: 600;
+border: none;
+
+  }
+
+>.calcBmi:hover{
+  background-color: rgb(3, 91, 3);
+  transform: scale(1.05); /* Slightly increases the size */
+  transition: transform 0.2s ease-in-out; /* Adds smooth animation */
+  
+}
+
+
+
+  >.output{
+      padding: 8px;
+      width: 180px;
+      font-weight: 600;
+      color: #fff;
+      
+        }
+
+
+        >span{
+          padding: 8px;
+        }
+  }
+}
+
+
+
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+

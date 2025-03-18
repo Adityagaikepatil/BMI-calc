@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+
+    <h1><span id="span">Body</span> Mass Index (BMI)</h1>
+  <form>
+   
+     <div class="inputContainer">
+     
+      <input placeholder="Enter your Height in cm" type="number" id="height" class="input">
+      <input placeholder="Enter your weight in kg" type="number" id="weight" class="input">
+     </div>
+   <div  class="buttonContainer">
+    <button type="submit" class="calcBmi">Calculate BMI</button>
+    <span>=</span>
+    <div class="output"></div>
+
+   </div>
+
+   <div class="screen"></div>
+    
+      <ul class="info">
+        <li>Under Weight :  BMI less than 18</li>
+        <li>Normal Weight : BMI betwwwn 18.1 - 24</li>
+        <li>Over Weight : Bmi greater than 24</li>
+      </ul>
+    
+  </form>
+
+  </div>
+  
+</body>
+<script src="./index.js"></script>
+</html>
